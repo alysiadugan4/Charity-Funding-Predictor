@@ -37,7 +37,7 @@ Optimize your model in a separate notebook in order to achieve a target predicti
 
 ## Summary
 
-The purpose of this assignment was to create an algorithm to predict whether or not applicants for funding from a non-profit will be successful. The target for this model was IS_SUCCESSFUL. The features of this model are the Application Type, Affiliation, Classification, Use Case, Organization type, Status, Income Amount, Special Considerations, and Ask Amount. The EIN and Name fields were removed from the dataset as they did not contribute any useful information to the model.
+The purpose of this assignment was to create an algorithm to predict whether or not applicants for funding from a non-profit will be successful. The target for this model was IS_SUCCESSFUL. The features of this model are the Application Type, Affiliation, Classification, Use Case, Organization type, Status, Income Amount, Special Considerations, and Ask Amount. The EIN and Name fields were removed from the dataset as they did not contribute any useful information to the model. The size of the inital dataset was 34,299 rows. 
 
 I started with two layers (excluding the output layer) with ten nodes each and I ran it through 100 epochs. This resulted in a 72.96% accuracy score, a bit lower than the target. The first round of optimization, I decided to double the nodes to 20 and increase the epochs to 125. The accuracy score only increased marginally to 73.25%. The second round of optimization, I increased the nodes and epochs again, this time to 50 and 150, respectively. The accuracy score is still consistent with the previous attempts, coming in at 73.38%. 
 
